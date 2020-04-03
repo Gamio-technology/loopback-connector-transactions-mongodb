@@ -1,7 +1,7 @@
 {
-  "name": "loopback-connector-mongodb",
+  "name": "loopback-connector-transactions-mongodb",
   "version": "5.2.3",
-  "description": "The official MongoDB connector for the LoopBack framework.",
+  "description": "Clone of the official MongoDB connector for the LoopBack framework with query transaction options.",
   "engines": {
     "node": ">=8"
   },
