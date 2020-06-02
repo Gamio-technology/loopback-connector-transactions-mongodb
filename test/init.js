@@ -1,5 +1,5 @@
 // Copyright IBM Corp. 2013,2019. All Rights Reserved.
-// Node module: loopback-connector-mongodb
+// Node module: loopback-connector-transactions-mongodb
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -20,7 +20,7 @@ config = {
   database:
     process.env.MONGODB_DATABASE ||
     'lb-ds-mongodb-test-' +
-      (process.env.TRAVIS_BUILD_NUMBER || process.env.BUILD_NUMBER || '1'),
+    (process.env.TRAVIS_BUILD_NUMBER || process.env.BUILD_NUMBER || '1'),
 };
 
 global.config = config;

@@ -1,5 +1,5 @@
 // Copyright IBM Corp. 2015,2019. All Rights Reserved.
-// Node module: loopback-connector-mongodb
+// Node module: loopback-connector-transactions-mongodb
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -19,7 +19,7 @@ const Todo = ds.define('Todo', {
 });
 
 // not critical for MongoDB, but may uncover inefficiencies in SQL connectors
-// https://github.com/strongloop/loopback-connector-mongodb/pull/124/files#r28435614
+// https://github.com/strongloop/loopback-connector-transactions-mongodb/pull/124/files#r28435614
 let uniqVal = 0;
 
 function resetTestState() {

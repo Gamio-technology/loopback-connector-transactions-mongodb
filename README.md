@@ -1,4 +1,4 @@
-# loopback-connector-mongodb
+# loopback-connector-transactions-mongodb
 
 The official MongoDB connector for the LoopBack framework.
 
@@ -9,7 +9,7 @@ Please see the full documentation at [loopback.io](http://loopback.io/doc/en/lb3
 In your application root directory, enter this command to install the connector:
 
 ```sh
-npm install loopback-connector-mongodb --save
+npm install loopback-connector-transactions-mongodb --save
 ```
 
 This installs the module from npm and adds it as a dependency to the application's `package.json` file.
@@ -49,7 +49,7 @@ Eg: `pa$$wd` would become `pa%24%24wd`.
 
 | Property | Type&nbsp;&nbsp; | Description |
 | --- | --- | --- |
-| connector | String | Connector name, either `"loopback-connector-mongodb"` or `"mongodb"`. |
+| connector | String | Connector name, either `"loopback-connector-transactions-mongodb"` or `"mongodb"`. |
 | database | String | Database name |
 | host | String | Database host name |
 | password | String | Password to connect to database |
